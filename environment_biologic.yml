@@ -1,0 +1,16 @@
+name: peakratio_biologic
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - scikit-learn
+  - openpyxl
+  - jupyter
+  - pip
+  - pip:
+    - galvani
